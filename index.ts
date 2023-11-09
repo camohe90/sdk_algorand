@@ -8,8 +8,6 @@ async function main() {
 
     const algod = algokit.getAlgoClient(algokit.getDefaultLocalNetConfig('algod'));
 
-    //obtener información de la cuenta
-
     //console.log( await algod.accountInformation(camilo.addr).do());
 
     //agregar ALGOS a la cuenta de Camilo

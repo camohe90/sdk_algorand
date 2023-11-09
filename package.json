@@ -1,7 +1,7 @@
 {
-  "name": "bootcamp_august",
+  "name": "algorand-gitpod",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Using This Repo Go to https://gitpod.io/#https://github.com/algorand-devrel/algorand-gitpod to create a workspace based on this repo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@algorandfoundation/algokit-utils": "^2.3.1",
-    "algosdk": "^2.4.0"
+    "algosdk": "^2.4.0",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
