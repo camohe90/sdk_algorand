@@ -5,7 +5,7 @@ import 'dotenv/config'
 
 async function main() {
 
-    const camilo = algosdk.mnemonicToSecretKey(process.env.PASSPHRASE)
+    const camilo = algosdk.mnemonicToSecretKey(process.env.PASSPHRASE!)
     console.log(camilo)
    
     const algod = algokit.getAlgoClient(algokit.getAlgoNodeConfig('testnet', 'algod'))
